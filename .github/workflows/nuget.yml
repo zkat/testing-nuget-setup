@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         nuget-version: [latest, preview, 3]
-        os: [ubuntu-latest, macOS-latest, windows-latest]
+        os: [windows-latest]
 
     steps:
       - uses: actions/checkout@v1
