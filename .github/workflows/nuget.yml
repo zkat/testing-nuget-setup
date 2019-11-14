@@ -16,5 +16,5 @@ jobs:
         uses: nuget/setup-nuget@master
         with:
           nuget-version: ${{ matrix.nuget-version }}
-      - name: hi
+      - name: again!
         run: nuget
