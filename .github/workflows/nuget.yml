@@ -13,8 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install NuGet
-        uses: nuget/setup-nuget@master
+        uses: nuget/setup-nuget@dev
         with:
           nuget-version: ${{ matrix.nuget-version }}
-      - name: another!
-        run: nuget
+      - run: nuget
