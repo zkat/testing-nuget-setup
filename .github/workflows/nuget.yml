@@ -17,5 +17,5 @@ jobs:
         with:
           nuget-version: ${{ matrix.nuget-version }}
           nuget-api-key: ${{ secrets.NuGetAPIKey }}
-      - name: exec nuget
+      - name: run nuget
         run: nuget
